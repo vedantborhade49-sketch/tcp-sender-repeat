@@ -131,3 +131,5 @@ You can verify the system through these stages:
 - **Camera Recovery Behavior:** If the USB camera glitches or disconnects momentarily and 10 consecutive capture failures occur, the system triggers a camera recovery sequence (`[PI] Attempting camera recovery...`).
 - **Network Troubleshooting:** Ensure the laptop firewall permits incoming TCP connections on the configured port (default `5000`).
 - **Shutdown Procedure:** Press `Ctrl+C` to trigger a clean shutdown sequence that gracefully releases the camera hardware and closes active sockets.
+
+# tcp-sender-repeat
